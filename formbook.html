@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/formbook.css">
+    <title>FormBook</title>
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="navbar fixed-top navbar-expand-lg border-bottom border-5 bg-light">
+        <div class="container p-1">
+            <a href=""><img src="assets/logobrand2.png" alt="Bootstrap" class="navbar-brand" style="width: 100px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="d-lg-flex d-none" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#paket">Paket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimoni</a>
+                    </li>
+                    <form class="d-flex d-lg-none" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <button type="button" class="btn masuk btn-primary">Masuk</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--END OF NAV -->
+    <!-- MAIN -->
+    <main>
+        <section class="container-fluid" id="container-card-section">
+            <div class="container-card ">
+                <div class="row card-row justify-content-center">
+                    <div class="col-md-3 card guest shadow">
+                        <div class="title-card">
+                            <h4>Guest Information</h4>
+                        </div>
+                        <div class="form-card">
+                            <form action="">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Nama lengkap</label>
+                                    <input type="text" class="form-control bg-body-secondary" id="name"
+                                        aria-describedby="name" placeholder="Nama Lengkap">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control bg-body-secondary" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Email">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="notelp" class="form-label">No. HP</label>
+                                    <input type="text" class="form-control bg-body-secondary" id="name"
+                                        aria-describedby="name" placeholder="No. HP">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="address" class="form-label">Alamat</label>
+                                    <input type="text" class="form-control bg-body-secondary" id="address"
+                                        placeholder="Alamat">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="city" class="form-label">Kota</label>
+                                    <input type="text" class="form-control bg-body-secondary" id="city"
+                                        placeholder="Kota">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card info shadow">
+                        <div class="title-card">
+                            <h4>Travel Information</h4>
+                        </div>
+                        <div class="form-card">
+                            <form action="">
+                                <div class="mb-3">
+                                    <label for="check-in-date" class="form-label">Check-in Date</label>
+                                    <input type="date" class="form-control bg-body-secondary" id="check-in-date"
+                                        aria-describedby="name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="check-out-date" class="form-label">Check-out Date</label>
+                                    <input type="date" class="form-control bg-body-secondary" id="check-out-date"
+                                        aria-describedby="name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="jumlah-tamu" class="form-label">Jumlah Tamu</label>
+                                    <input type="text" class="form-control bg-body-secondary" id="jumlah-tamu"
+                                        aria-describedby="name" placeholder="Jumlah Tamu">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="promo-code" class="form-label">Promo Code</label>
+                                    <input type="text" class="form-control bg-body-secondary" id="promo-code"
+                                        placeholder="Promo Code">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="catatan-tambahan" class="form-label">Catatan Tambahan</label>
+                                    <textarea class="form-control bg-body-secondary" id="catatan-tambahan" rows="3"
+                                        placeholder="Catatan Tambahan"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-success btn-lg">Success</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-3 card price shadow">
+                        <div class="title-card">
+                            <h4>Travel Detail</h4>
+                        </div>
+                        <div class="card-content">
+                            <div class="detail-content">
+                                <span>Prices may vary according to availability and dates.</span>
+                                <div class="place-content">
+                                    <div class="place-detail-content">
+                                        <img class="img" src="/assets/pulauKomodo.jpg" alt="Villa Harmony">
+                                        <div class="little-title-card">
+                                            <h5>Pulau Komodo</h5>
+                                            <h6>Nusa Tenggara Barat</h6>
+                                            <div class="price-little-card">
+                                                <span>Rp.450.000</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price-detail">
+                                    <table>
+                                        <tr class="subtotal-price">
+                                            <td class="title-price">Subtotal</td>
+                                            <td class="content-price">Rp.450.000</td>
+                                        </tr>
+                                        <tr class="tax-price">
+                                            <td class="title-price">Tax</td>
+                                            <td class="content-price">Rp.50.000</td>
+                                        </tr>
+                                    </table>
+                                    <table>
+                                        <tr class="total-price">
+                                            <td>Total</td>
+                                            <td>Rp.500.000</td>
+                                        </tr>
+                                    </table>
+                                    <p>Total includes all applicable taxes and fees.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <!-- END OF MAIN -->
+    <!-- footer -->
+    <footer class="mt-5">
+        <div class="footer-column">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">Branding</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Advertisement</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Press kit</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="#">Terms of use</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Cookie policy</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

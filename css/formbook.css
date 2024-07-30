@@ -1,0 +1,183 @@
+/* general */
+body {
+    background-color: #f3f4f6;
+}
+
+#container-card-section {
+    width: 100%;
+    min-height: 100vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container-card {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 25px;
+}
+
+.form-card {
+    margin: 0px 15px 15px 15px;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-row {
+    align-items: center;
+    gap: 20px;
+}
+
+.title-card {
+    margin: 15px 0px 0px 15px;
+    text-align: center;
+}
+
+.title-card h4 {
+    color: #a6adbb;
+    font-weight: bolder;
+}
+
+.form-control {
+    padding: 10px;
+}
+
+/* end of general */
+/* card 1 guest information */
+.card.guest {
+    height: fit-content;
+}
+
+/* end of card 1 */
+/* card 2 villa info */
+.btn {
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.btn-success {
+    background-color: #22c55e;
+}
+
+/* end of card 2 */
+
+/* card 3 price detail */
+.little-title-card h5 {
+    color: #a6adbb;
+    font-weight: bolder;
+}
+
+.little-title-card h6 {
+    color: #767676;
+    font-weight: bold;
+    font-weight: 400;
+}
+
+.place-content img {
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    width: 100px;
+}
+
+
+.place-content {
+    display: flex;
+    width: 100%;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+
+.place-detail-content {
+    display: flex;
+    /* border: 1px solid green; */
+    gap: 15px;
+    align-items: center;
+}
+
+.card.price {
+    width: fit-content;
+}
+
+.card-content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin: 0px 0px 15px 0px;
+}
+
+.detail-content {
+    width: 90%;
+}
+
+.price-little-card {
+    text-align: start;
+}
+
+table {
+    width: 100%;
+}
+
+.title-price {
+    text-align: start;
+}
+
+.content-price {
+    text-align: end;
+}
+
+.total-price {
+    color: #7676768d;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.price-detail p {
+    color: #767676;
+    margin-top: 5px;
+}
+
+/* end of card 3 */
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.footer-column {
+    text-align: center;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #959595;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+/* end of footer */
